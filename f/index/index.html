@@ -20,7 +20,12 @@
 	</div>
 	<br>
 	<div class="container">
-		<span><h2 class="w3-text-light-grey">Articles<span><h4>From 2008 to 2017</h4></span></h2></span>
+		<h2 class="w3-text-light-grey">Articles</h2>
+		<p class="w3-text-blue-gray">From 2008 to 2017</p>
+		<div class="w3-light-gray" id="arti"></div>
 	</div>
+	<script>
+		$(document).ready(function(){$('#arti').load('../../b/articles/test.txt');})
+	</script>
 </body>
 </html>
